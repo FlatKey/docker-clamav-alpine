@@ -10,10 +10,10 @@ This image is based on Alpine Linux.
 
 Example:
 
-    docker run -d --name clamav -p 3310:3310 geekduck/clamavd
+    docker run -d --name clamav -p 3310:3310 flatkey/clamav-alpine
 
 
 link:
 
-    docker run -d --name clamav geekduck/clamavd
+    docker run -d --name clamav flatkey/clamav-alpine
     docker run -d --link clamav:clamav some_app
