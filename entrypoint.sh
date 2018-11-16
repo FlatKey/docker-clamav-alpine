@@ -1,6 +1,7 @@
 #!/bin/sh
 freshclam -d &
 clamd &
+clamav-milter &
 
 pids=`jobs -p`
 
