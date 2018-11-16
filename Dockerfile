@@ -1,5 +1,4 @@
 FROM alpine:latest
-MAINTAINER KAMO Yasuhiro <duck1218+github@gmail.com>
 
 RUN apk --no-cache add clamav clamav-libunrar clamav-milter \
     && mkdir /run/clamav \
